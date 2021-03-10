@@ -1,9 +1,28 @@
 {
-	"private": true,
-	"devDependencies": {
-		"nodemon": "^2.0.7"
-	},
-	"dependencies": {
-		"express": "^4.17.1"
-	}
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "node-api1-guided",
+  "description": "Guided project for **Node API 1** Module.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	  "server":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayadiFWD/node-api1-guided.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayadiFWD/node-api1-guided/issues"
+  },
+  "homepage": "https://github.com/SayadiFWD/node-api1-guided#readme"
 }
